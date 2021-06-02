@@ -6,7 +6,7 @@ import * as Location from "expo-location";      // for getLocation  needs instal
 import axios from "axios";                      // for http or https communication  needs install
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-const API_KEY = "";
+const API_KEY = "your api key";
 
 export default class extends React.Component {
   state = {
