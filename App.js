@@ -53,11 +53,6 @@ export default class extends React.Component {
     }
   };
   
-
-  componentDidMount() {
-    this.getLocation();
-  }
-
   render() {
     const {isLoading, celsius, weatherName, weatherCode, weatherDescription, weatherIconName} = this.state;
     return this.state.isLoading ? 
